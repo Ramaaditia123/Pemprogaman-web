@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pemesanan Barang</title>
+</head>
+<body>
+    <form action="pesanan.html" method="post">
+    <fieldset style="display: flex; justify-content: space-between;"> 
+        <a href="Pemesananbarang.html" style="text-decoration: none; color: black;">Home </a> 
+        <a href=""style="text-decoration: none; color: #000;">Generote Link </a>
+        <a href="#"style="text-decoration: none ; color: #000;">Transaction History </a>
+        <a href="#"style="text-decoration: none ; color: #000;">Policy </a>
+        <a href="#"style="text-decoration: none ; color: #000;">Logout </a>
+    </fieldset>
+    <section>
+        <br>
+        <img src="download (1).jpg" alt="" width="180px" height="190px">
+        <br>
+        <button>Update Picture</button>
+    </section>
+    <section style="margin-left: 200px; margin-top: -200px;">
+        <label for="title-here">Title Here :</label>
+        <input type="text" name="title-here" id="title-here" style="margin-left: 80px; width: 307px;">
+        <br><br>
+        <label for="description">description :</label>
+        <textarea name="description" id="description" cols="40" rows="5" style="margin-left: 73px " ></textarea>
+        <br><br>
+        <label for="accoun-number">Accoun Number :</label>
+        <input type="number" name="accoun-number" id="accoun-number"style="margin-left: 37px; width: 80px;">
+        <br><br>
+        <label for="bank">Bank :</label>
+        <select name="bank" id="bank" style="margin-left: 110px; width: 80px;">
+            <option value="bca">BCA</option>
+            <option value="bri">BRI</option>
+            <option value="dana">DANA</option>
+            <option value="gopay">GOPAY</option>
+            </select>
+        <br><br>
+        <label for="account-holder">Account Holder :</label>
+        <input type="text" name="account-holder" id="account-holder" style="margin-left: 40px ; width: 160px; ">
+        <br><br>
+        <label for="transaction">Transaction :</label>
+        <input type="number" name="transaction" id="transaction" min="1" max="10" style="margin-left: 68px; width: 30px ;">
+        <br>
+        <p style="margin-left: 155px;">*if the transaction is for 3 person, chose 3 from the drof-down list</p>
+        <input type="checkbox" name="Phone" id="Phone" style="margin-left: 155px;" style="margin-left: 50p;" width="100px">
+        <label for="Phone">Send to Mobile Phone</label>
+        <br>
+        <input type="checkbox" name="email" id="email" style="margin-left: 155px;" width="50px" >
+        <label for="email">Send to Email</label>
+        <br><br>
+        <label for="send-to-mobile-phone">Send to Mobile Phone :</label>
+        <input type="number" name="send-to-mobile-phone" id="send-to-mobile-phone;">
+        <br>
+        <label for="send-to-email">Send to Email :</label>
+        <input type="email" name="send-to-email" id="send-to-email" style="margin-left: 53px; width: 162px; ">
+        <br><br>
+        <button type="submit" class="submit-btn" style="margin-left: 158px; background-color: green; color: white;" >Generate Nabr Link</button>
+    </section>
+</form>
+</body>
+</html>
